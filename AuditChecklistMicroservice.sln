@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditChecklistMicroservice", "AuditChecklistMicroservice.csproj", "{021BD6E7-5F3D-49A8-850F-8DEB8FA5EE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditChecklistTesting", "..\AuditChecklistTesting\AuditChecklistTesting.csproj", "{FB6FE96A-A7A5-4B4C-B6AB-3C097B5449C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021BD6E7-5F3D-49A8-850F-8DEB8FA5EE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021BD6E7-5F3D-49A8-850F-8DEB8FA5EE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021BD6E7-5F3D-49A8-850F-8DEB8FA5EE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021BD6E7-5F3D-49A8-850F-8DEB8FA5EE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6FE96A-A7A5-4B4C-B6AB-3C097B5449C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6FE96A-A7A5-4B4C-B6AB-3C097B5449C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6FE96A-A7A5-4B4C-B6AB-3C097B5449C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6FE96A-A7A5-4B4C-B6AB-3C097B5449C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD1BDA35-50ED-4B86-A8F4-E1C2F5836F6E}
+	EndGlobalSection
+EndGlobal

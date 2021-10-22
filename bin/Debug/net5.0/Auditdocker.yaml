@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auditchecklistservicedepl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: AuditChecklistMicroService
+  template:
+    metadata:
+      labels:
+        app: AuditChecklistMicroService
+    spec:
+      containers:
+      - name: checklistdocker
+        image: checklistservicecr.azurecr.io/checklistdocker:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auditchecklistservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: AuditChecklistMicroService

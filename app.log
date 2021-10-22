@@ -1,0 +1,14 @@
+INFO  11:08:56 Application started. Press Ctrl+C to shut down.
+INFO  11:08:56 Hosting environment: Development
+INFO  11:08:56 Content root path: F:\MFPE\AuditChecklistMicroservice
+INFO  11:09:47 Application started. Press Ctrl+C to shut down.
+INFO  11:09:47 Hosting environment: Development
+INFO  11:09:47 Content root path: F:\MFPE\AuditChecklistMicroservice
+INFO  11:15:13 Application started. Press Ctrl+C to shut down.
+INFO  11:15:13 Hosting environment: Development
+INFO  11:15:13 Content root path: F:\MFPE\AuditChecklistMicroservice
+INFO  11:16:50 Application started. Press Ctrl+C to shut down.
+INFO  11:16:50 Hosting environment: Development
+INFO  11:16:50 Content root path: F:\MFPE\AuditChecklistMicroservice
+INFO  11:16:56 Get method of checklist microservice is invoked
+INFO  11:16:56 Question list for Internal is returned
